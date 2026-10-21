@@ -1,21 +1,29 @@
-# Gear Finder 1.6.3-beta.1
+First public beta for WoW Forever 1.60.1, interface 16001.
 
-First public GitHub prerelease for friends to test and contribute.
+Rank recorded gear by level and role, and look up its dungeon, quest and crafting sources.
 
-Adds a saved Use faction farming preferences checkbox. Turn it off to include cross-faction dungeon farming routes while retaining actual quest faction and class restrictions. Existing characters keep the earlier preference by default. Includes portable tests, a verified ZIP builder and automated checks.
+## Changes
 
-The 3 October 2026 snapshot omits new Forever dungeon drops. Rankings use estimated base-stat weights and omit procs, set bonuses and complete gear-set comparisons. This beta adds a saved checkbox to disable faction farming preferences. It defaults to on to preserve previous behavior. Inspect integration still needs an in-game check.
+- Added the saved Use faction farming preferences checkbox.
+- Turn it off to include cross-faction dungeon farming routes. Actual quest faction and class restrictions still apply.
+- Existing characters keep faction farming preferences enabled by default.
 
-Install `GearFinder-1.6.3-beta.1.zip`. Keep your WTF folder to retain settings.
-The checksum is in SHA256SUMS.txt. Please report reproducible problems through GitHub issues.
+## Install
 
-Checked in WoW Forever on 21 October 2026. Scanning at the current level and planning level 25 works. Selecting an item shows its source details. Switching faction farming preferences off changes the planning results from 390 to 395 items, and switching it on restores 390. Inspect integration and broader gameplay still need testing.
+Download `GearFinder-1.6.3-beta.1.zip` under Assets. Close WoW, extract it and copy `GearFinder` into your client's `Interface/AddOns` folder. Restart WoW and enable it at character selection.
 
+Type `/gear`, choose a role and click Scan. Keep your WTF folder when updating to retain settings. `SHA256SUMS.txt` contains the download checksum.
 
-![Promotional artwork](https://raw.githubusercontent.com/DeanieBobeanie/GearFinder-Forever/main/media/banner.png)
+## Known limits
 
-AI-generated promotional artwork.
+- The 3 October 2026 data snapshot omits new Forever dungeon drops.
+- Rankings use estimated base-stat weights and omit procs, set bonuses and complete gear-set comparisons.
+- Inspect integration still needs an in-game check.
 
-![Actual in-game screenshot](https://raw.githubusercontent.com/DeanieBobeanie/GearFinder-Forever/main/media/in-game.jpg)
+## Checks
 
-Level 25 planning on a level 6 Horde hunter, with a selected dungeon source.
+Automated checks passed. Current-level scans, level 25 planning and item source details were checked in WoW Forever on 21 October 2026. Disabling faction farming preferences changed the planning results from 390 to 395 items; enabling it restored 390.
+
+![Gear Finder level planning and item source details in WoW Forever](https://raw.githubusercontent.com/DeanieBobeanie/GearFinder-Forever/v1.6.3-beta.1/media/in-game.jpg)
+
+[Usage guide](https://github.com/DeanieBobeanie/GearFinder-Forever#quick-start) · [Report a bug](https://github.com/DeanieBobeanie/GearFinder-Forever/issues) · [Contribute](https://github.com/DeanieBobeanie/GearFinder-Forever/blob/main/CONTRIBUTING.md)
