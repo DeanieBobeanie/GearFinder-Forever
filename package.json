@@ -1,0 +1,13 @@
+{
+  "name": "gearfinder-forever",
+  "version": "1.6.3-beta.1",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "test": "node tests/test_gear.cjs"
+  },
+  "devDependencies": {
+    "fengari": "0.1.5",
+    "luaparse": "0.3.1"
+  }
+}

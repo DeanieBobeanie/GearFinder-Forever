@@ -1,0 +1,23 @@
+{
+  "addon": "GearFinder",
+  "files": [
+    "GearFinder/CLASSICDB-AUTHORS.txt",
+    "GearFinder/CLASSICDB-COPYRIGHT.md",
+    "GearFinder/CLASSICDB-LICENSE.md",
+    "GearFinder/CLASSICDB-NOTICE.md",
+    "GearFinder/Chat.lua",
+    "GearFinder/Data.lua",
+    "GearFinder/Engine.lua",
+    "GearFinder/FarmingRules.lua",
+    "GearFinder/GearFinder.toc",
+    "GearFinder/Inspect.lua",
+    "GearFinder/LICENSE.md",
+    "GearFinder/NativeInspect.lua",
+    "GearFinder/Profiles.lua",
+    "GearFinder/README.md",
+    "GearFinder/SOURCES.md",
+    "GearFinder/SourcesUI.lua",
+    "GearFinder/UI.lua",
+    "GearFinder/snapshot-manifest.json"
+  ]
+}

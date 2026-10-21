@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: Gear Finder
+## Notes: Three or five gear choices per slot for your level, with dungeon, quest and crafting sources.
+## Author: DeanieBobeanie and contributors
+## Version: 1.6.3-beta.1
+## SavedVariablesPerCharacter: GearFinderDB
+## X-License: GPL-3.0-or-later
+Data.lua
+Profiles.lua
+FarmingRules.lua
+Engine.lua
+Chat.lua
+UI.lua
+Inspect.lua
+SourcesUI.lua
+NativeInspect.lua
