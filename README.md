@@ -2,7 +2,7 @@
 
 Compare gear for your level and role, then find its recorded dungeon, quest or crafting sources.
 
-[Download beta 1.6.3-beta.2](https://github.com/DeanieBobeanie/GearFinder-Forever/releases/tag/v1.6.3-beta.2) · [Report a bug](https://github.com/DeanieBobeanie/GearFinder-Forever/issues) · [Contribute](CONTRIBUTING.md)
+[Download beta](https://github.com/DeanieBobeanie/GearFinder-Forever/releases) · [Report a bug](https://github.com/DeanieBobeanie/GearFinder-Forever/issues) · [Contribute](CONTRIBUTING.md)
 
 ![Gear Finder artwork](media/banner.png)
 
@@ -18,7 +18,7 @@ For WoW Forever 1.60.1, interface 16001.
 
 ## Install
 
-1. Download `GearFinder-1.6.3-beta.2.zip` from the [release page](https://github.com/DeanieBobeanie/GearFinder-Forever/releases/tag/v1.6.3-beta.2).
+1. Download the installable `GearFinder` ZIP from the [release page](https://github.com/DeanieBobeanie/GearFinder-Forever/releases).
 2. Close WoW and extract the ZIP.
 3. Copy `GearFinder` into your Forever client's `Interface/AddOns` folder.
 4. Restart WoW and enable the add-on at character selection.
