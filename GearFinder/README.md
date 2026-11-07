@@ -67,7 +67,7 @@ Each slot ranks independently. Both ring slots and both trinket slots can show t
 
 ## Database coverage
 
-The October 3, 2026 snapshot matches build 1.60.1.70205. It includes 8,406 gear records. Of these, 2,941 have a recorded dungeon, quest or crafting source. There are 336 items with dungeon sources, 1,302 with quest sources and 1,317 with crafting sources. Some items have more than one source type.
+The November 7, 2026 refresh uses Forever Codex build 1.60.1.70245. It includes 8,528 gear records. Of these, 2,970 have a recorded dungeon, quest or crafting source. There are 363 items with dungeon sources, 1,304 with quest sources and 1,317 with crafting sources. Some items have more than one source type. The source database still uses an older beta build. This refresh does not establish that its records match the installed launch client, build 1.60.1.70862.
 
 Dungeon drops come from Classic 1.12 records and may differ in Forever. New Forever dungeon drops are not included. Some new Forever quest and crafting rewards are included. Records without an acquisition source, hidden or Season of Discovery records, shirts and tabards do not appear as farming suggestions. Raids, PvP, vendors and general world drops are outside the source filters.
 
@@ -83,7 +83,7 @@ Use the manual installation above for your chosen client, including `_forever_`.
 
 ## Validation
 
-The test suite checks Lua 5.1 syntax, snapshot integrity, ranking order, all 29 profiles, armor filters, class and level restrictions, faction farming preferences, quest faction and race requirements, completed quest exclusion, profession requirements, per-profile weights, level previews and UI interactions. Chat tests check item links, draft preservation, group channels and uncached items. Run `node tools/test_gear.cjs` from the project folder. It uses the project's existing Fengari and luaparse dependencies.
+The test suite checks Lua 5.1 syntax, snapshot integrity, ranking order, all 29 profiles, armor filters, class and level restrictions, faction farming preferences, quest faction and race requirements, completed quest exclusion, profession requirements, per-profile weights, level previews and UI interactions. Chat tests check item links, draft preservation, group channels and uncached items. Run `npm test` from the repository root. It uses the project's existing Fengari and luaparse dependencies.
 
 Inspection tests check matching server responses, target changes, timeouts, request throttling, missing item records, delayed item data and preservation of inspected item links. This version has not been tested inside WoW. Mock API tests cannot verify the live layout, tooltip behavior or every Forever API change. Enable error reporting with `/console scriptErrors 1` if the add-on fails, then copy the first error. Disable it with `/console scriptErrors 0` afterward.
 

@@ -1,8 +1,8 @@
 # Data sources
 
-Checked October 3, 2026.
+Item snapshot refreshed November 7, 2026. Earlier API and alternative-source checks retain their dates below.
 
-- [Forever Codex item database](https://forever-codex.com/items/) supplies item stats, class masks, effects, quest reward records and crafting records extracted from the Forever client. The bundled build is 1.60.1.70205.
+- [Forever Codex item database](https://forever-codex.com/items/) supplies item stats, class masks, effects, quest reward records and crafting records extracted from the Forever client. The bundled source build is 1.60.1.70245. Forever Codex still identifies this as beta data, older than the installed launch client build 1.60.1.70862.
 - [Gear snapshot](https://forever-codex.com/data/gear/items.json) includes its field layout. The importer reads item source records from `/data/items/c/`, the quest index from `/data/quests/list.json`, and Classic source and quest records from `/data/classicdb/` on that same site.
 - [Forever Codex dungeon list](https://forever-codex.com/dungeons/) supplies recommended level ranges. These are not entrance-level guarantees.
 - [Forever Codex Hall of Thanes coverage](https://forever-codex.com/dungeons/the-hall-of-thanes/) explains why its item data lacks new dungeon drop tables.

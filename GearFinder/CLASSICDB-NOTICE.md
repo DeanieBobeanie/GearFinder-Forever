@@ -34,7 +34,7 @@ SQL tables `creature_template`, `creature`, `gameobject_template`, `gameobject`,
 9,163 statements were applied to the kept tables; 0 could not be applied.
 
 These files are a modified version of that database (converted from the commit of 2026-09-22, against the
-Forever client build 1.60.1.70205) and are licensed under the same licence, GPL-3.0: you may copy, change and share them
+Forever client build 1.60.1.70245) and are licensed under the same licence, GPL-3.0: you may copy, change and share them
 under its terms. They are plain JSON, the form we work on them in; the unmodified database is the repository above at
 the commit above. They come WITHOUT ANY WARRANTY (sections 15 and 16 of the licence). This is Classic data: it may
 differ in World of Warcraft: Forever. The site shows it with a "Classic" tag whose help says it may differ in Forever,

@@ -2,7 +2,7 @@
 
 Compare gear for your level and role, then find its recorded dungeon, quest or crafting sources.
 
-[Download beta 1.6.3-beta.1](https://github.com/DeanieBobeanie/GearFinder-Forever/releases/tag/v1.6.3-beta.1) · [Report a bug](https://github.com/DeanieBobeanie/GearFinder-Forever/issues) · [Contribute](CONTRIBUTING.md)
+[Download beta 1.6.3-beta.2](https://github.com/DeanieBobeanie/GearFinder-Forever/releases/tag/v1.6.3-beta.2) · [Report a bug](https://github.com/DeanieBobeanie/GearFinder-Forever/issues) · [Contribute](CONTRIBUTING.md)
 
 ![Gear Finder artwork](media/banner.png)
 
@@ -18,7 +18,7 @@ For WoW Forever 1.60.1, interface 16001.
 
 ## Install
 
-1. Download `GearFinder-1.6.3-beta.1.zip` from the [release page](https://github.com/DeanieBobeanie/GearFinder-Forever/releases/tag/v1.6.3-beta.1).
+1. Download `GearFinder-1.6.3-beta.2.zip` from the [release page](https://github.com/DeanieBobeanie/GearFinder-Forever/releases/tag/v1.6.3-beta.2).
 2. Close WoW and extract the ZIP.
 3. Copy `GearFinder` into your Forever client's `Interface/AddOns` folder.
 4. Restart WoW and enable the add-on at character selection.
@@ -43,7 +43,7 @@ Level 25 planning on a level 6 Horde hunter, captured on 21 October 2026. Other 
 
 ## Known limits
 
-- The 3 October 2026 data snapshot omits new Forever dungeon drops. See [source coverage](GearFinder/SOURCES.md).
+- The 7 November 2026 refresh uses Forever Codex beta build 1.60.1.70245 and still omits new Forever dungeon drops. See [source coverage](GearFinder/SOURCES.md).
 - Rankings use estimated base-stat weights. They do not score procs, set bonuses or complete gear sets.
 - Inspect integration still needs an in-game check.
 
